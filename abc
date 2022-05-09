@@ -1,0 +1,41 @@
+[33mcommit ee2853089641a0f325d525784b20cd8c8ed84a46[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Tim Leach <timleach635@gmail.com>
+Date:   Tue Apr 12 11:29:16 2022 +0100
+
+    Add formatting to the post dates
+
+[33mcommit 5a4f242c7821d7697c1ffb8b6658a033489b58f7[m
+Author: Tim Leach <timleach635@gmail.com>
+Date:   Tue Apr 12 11:12:53 2022 +0100
+
+    Add, and run, prettier
+
+[33mcommit 3b25bbb66febd62d34c14bbaf7d9cdf3e7a23eb1[m
+Author: Tim Leach <timleach635@gmail.com>
+Date:   Tue Apr 12 11:10:59 2022 +0100
+
+    Switch from moment.js to native Date and date-fns
+
+[33mcommit 4192ab37993a774c5f44b66e24814424ad4f59e1[m
+Author: Tim Leach <timleach635@gmail.com>
+Date:   Mon Apr 11 15:29:05 2022 +0100
+
+    Update package-lock.json to newer version of lockfile/npm
+
+[33mcommit 19a9a57652eb2f87a6c97ca25ddb590fa462a33a[m
+Author: ChristianMcc <Christian.mccaffery@softwire.com>
+Date:   Tue Feb 2 09:27:37 2021 +0000
+
+    Tidy up
+
+[33mcommit 151c4ee9ea884c08aabe16b8fcd12de46762a02b[m
+Author: ChristianMcc <Christian.mccaffery@softwire.com>
+Date:   Tue Feb 2 09:06:48 2021 +0000
+
+    Downgrade sqlite3 to 5.0.0 to stop node-gyp error needing python
+
+[33mcommit 1afc05ae764a252f6d4cf5d43cefa16d9ea7a2a5[m
+Author: Mike <Walker>
+Date:   Fri Jan 29 15:56:57 2021 +0000
+
+    Initial commit

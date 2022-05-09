@@ -6,10 +6,21 @@
 <ol>
     <% results.forEach(function(post) {%>
         <li>
-            <%= post.message %>
+           <p> <%= post.message %> </p>
+           <img 
+           src = "<%= post.imageurl %>"
+           width="50"
+           >
         </li>
     <% }); %>
+
 </ol>
+<%if (next) { %>
+    <a href="<%= next %>">Next</a>
+<% } %>
+<%if (previous) { %>
+    <a href="<%= previous %>">Previous</a>
+<% } %>
 </body>
 <%- include('_footer') -%>
 </html>
