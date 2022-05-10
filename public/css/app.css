@@ -2,9 +2,10 @@
     border: 2px solid red;
     background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Best-Textured-Photos.jpg");
     background-color: aliceblue;
-    width: 20vw;
+    width: 190px;
     padding: 50px;
-    margin: 5px 0
+    margin: 5px 0;
+    float: left;
     
 }
 
@@ -12,16 +13,24 @@
     margin: 10px 0 10px;
     
 }
-
+.post-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 h1 {
-    background-color: green;
+    background-color: grey;
+    font-style: italic;
+    text-align: center;
   }
 .postmessage{
     font-style: oblique;
-    border: 3px solid black;
+    border: 2px solid darkolivegreen;
+    width: 210px;
     font-size :20px;
+    text-align: center;
 }
 body{
-    background-image: url("https://th.bing.com/th/id/R.368829477d8bbdc03683d299856a7087?rik=Vsf0zjugsIY9zw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2fa%2f9%2f751625-download-free-hd-texture-backgrounds-1920x1280-for-windows.jpg&ehk=ZvYiv0CBfv%2fZrz2nYryENsne135MnkXJrLbhV5zBWNk%3d&risl=&pid=ImgRaw&r=0");
+    background-image: url("https://th.bing.com/th/id/R.ded168196c3b7ad9251ff774f6d63e8b?rik=bdOt0TYX0xk5%2fg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f021sLWW.jpg&ehk=6fsEv%2fkfZfQ8V%2buWP97%2bmotpH0Oncn7PH5FNvcLcVPE%3d&risl=&pid=ImgRaw&r=0");
     
 }
