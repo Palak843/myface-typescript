@@ -5,12 +5,10 @@
 <h1>Posts</h1>
 <ol>
     <% results.forEach(function(post) {%>
-        <li>
-           <p> <%= post.message %> </p>
-           <img 
-           src = "<%= post.imageurl %>"
-           width="50"
-           >
+        <li class="post">
+           <p class = "postmessage"> <%= post.message %> </p>
+           <img src = "<%= post.imageUrl %>" width="50" >
+           <p>Posted by <a href="/users/<%= post.postedBy.id %>" ><%= post.postedBy.name %></a></p>
         </li>
     <% }); %>
 

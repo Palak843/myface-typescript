@@ -1,1 +1,27 @@
-/* Add your styles here. */
+.post {
+    border: 2px solid red;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Best-Textured-Photos.jpg");
+    background-color: aliceblue;
+    width: 20vw;
+    padding: 50px;
+    margin: 5px 0
+    
+}
+
+.post p{
+    margin: 10px 0 10px;
+    
+}
+
+h1 {
+    background-color: green;
+  }
+.postmessage{
+    font-style: oblique;
+    border: 3px solid black;
+    font-size :20px;
+}
+body{
+    background-image: url("https://th.bing.com/th/id/R.368829477d8bbdc03683d299856a7087?rik=Vsf0zjugsIY9zw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2fa%2f9%2f751625-download-free-hd-texture-backgrounds-1920x1280-for-windows.jpg&ehk=ZvYiv0CBfv%2fZrz2nYryENsne135MnkXJrLbhV5zBWNk%3d&risl=&pid=ImgRaw&r=0");
+    
+}
