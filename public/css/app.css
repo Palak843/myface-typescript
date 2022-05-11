@@ -30,7 +30,11 @@ h1 {
     font-size :20px;
     text-align: center;
 }
-body{
+.postbody{
     background-image: url("https://th.bing.com/th/id/R.ded168196c3b7ad9251ff774f6d63e8b?rik=bdOt0TYX0xk5%2fg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f021sLWW.jpg&ehk=6fsEv%2fkfZfQ8V%2buWP97%2bmotpH0Oncn7PH5FNvcLcVPE%3d&risl=&pid=ImgRaw&r=0");
     
+}
+.userbody {
+    background-color: #252A38 ;
+    color : #dcdcdc;
 }
