@@ -54,30 +54,41 @@
     width: 80px;
     float: left;
     border-radius: 50%;
+    top: 120px;
+    border: white;
+    z-index: 1;
 }
 .name{
     font-size: 15px;
     position: relative;
-    left : 50px;
+    left : 0px;
     margin : 0;
-    top: 50px;
+    bottom: 40px;
     right: 30px;
+    background:linear-gradient(#252A38, rgba(0,0,0,0.5));
+    background-position: 100%;
+    text-align: center;
+    z-index: -1;
+
 }
 .username{
     font-size: 15px;
     position: relative;
-    left : 50px;
+    left : 120px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 50px; 
 }
 .email{
     font-size: 15px;
     position: relative;
-    left : 60px;
+    left : 120px;
     font-weight:lighter;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .coverimage{
     position: relative;
     width: 100%;
+    z-index: -2;
+    
+    
 }
