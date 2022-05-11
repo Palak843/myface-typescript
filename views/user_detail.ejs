@@ -2,6 +2,7 @@
 <%- include('_head') -%>
 <%- include('_header') -%>
 <body class = userbody>
+    <p> <img class= coverimage src="<%= coverImageUrl %>"></p>
     <p><img class= userimage src="<%= profileImageUrl %>"></p>
     <h1 class= name><%= name %></h1>
     <p class= username><%= username %></p>
@@ -14,7 +15,6 @@
      <p class = message><%= post.message %></p></li>
      <% }); %>
 </ul>
-<p> <img src="<%= coverImageUrl %>"></p>
 </body>
 <%- include('_footer') -%>
 </html>

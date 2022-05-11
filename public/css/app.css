@@ -50,18 +50,23 @@
     object-fit: cover;
 }
 .userimage{
+    position: absolute;
     width: 80px;
     float: left;
+    border-radius: 50%;
 }
 .name{
     font-size: 15px;
     position: relative;
-    left : 30px;
+    left : 50px;
+    margin : 0;
+    top: 50px;
+    right: 30px;
 }
 .username{
     font-size: 15px;
     position: relative;
-    left : 30px;
+    left : 50px;
     font-weight: bold;
     margin-top: 50px;
 }
@@ -71,4 +76,8 @@
     left : 60px;
     font-weight:lighter;
     margin-bottom: 20px;
+}
+.coverimage{
+    position: relative;
+    width: 100%;
 }
