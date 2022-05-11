@@ -18,7 +18,7 @@
     padding: 0;
     list-style: none;
 }
-h1 {
+.heading{
     background-color: grey;
     font-style: italic;
     text-align: center;
@@ -37,4 +37,38 @@ h1 {
 .userbody {
     background-color: #252A38 ;
     color : #dcdcdc;
+    font-family: 'Segoe UI', 'Open Sans', sans-serif;
+}
+.user-list{
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+}
+.postimage{
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+.userimage{
+    width: 80px;
+    float: left;
+}
+.name{
+    font-size: 15px;
+    position: relative;
+    left : 30px;
+}
+.username{
+    font-size: 15px;
+    position: relative;
+    left : 30px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.email{
+    font-size: 15px;
+    position: relative;
+    left : 60px;
+    font-weight:lighter;
+    margin-bottom: 20px;
 }

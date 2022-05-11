@@ -2,19 +2,19 @@
 <%- include('_head') -%>
 <%- include('_header') -%>
 <body class = userbody>
-    <h1><%= name %></h1>
-    <p><%= email %></p>
+    <p><img class= userimage src="<%= profileImageUrl %>"></p>
+    <h1 class= name><%= name %></h1>
+    <p class= username><%= username %></p>
+    <p class= email><%= email %></p>
     <h2><%= name %>'s post</h2>
-<ul><% posts.forEach(post =>{%>
-     <li> <img src = "<%= post.imageUrl %>" width="200" >
-     <p><%= username %></p>
-     <p><%= post.createdAt %></p>
-     <p><%= post.message %></p></li>
+<ul class = user-list><% posts.forEach(post =>{%>
+     <li> <img class= postimage src = "<%= post.imageUrl %>" width="200" >
+     <p class= username><%= username %></p>
+     <p class = date><%= post.createdAt %></p>
+     <p class = message><%= post.message %></p></li>
      <% }); %>
 </ul>
-<p> <img src="<%= profileImageUrl %>">
-    <img src="<%= coverImageUrl %>">
-</p>
+<p> <img src="<%= coverImageUrl %>"></p>
 </body>
 <%- include('_footer') -%>
 </html>
