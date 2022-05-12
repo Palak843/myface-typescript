@@ -2,12 +2,22 @@
 <%- include('_head') -%>
 <%- include('_header') -%>
 <body class = userbody>
-    <p> <img class= coverimage src="<%= coverImageUrl %>"></p>
-    <p><img class= userimage src="<%= profileImageUrl %>"></p>
-    <h1 class= name><%= name %></h1>
-    <p class= username><%= username %></p>
-    <p class= email><%= email %></p>
-    <h2><%= name %>'s post</h2>
+    <form id="menuButton" class="menu">
+        <select>
+            <option> Menu</option>
+            <option> Main menu</option>
+            <option> <a href="http://localhost:3001/posts"></a>Post</option>
+            <option> <a href="http://localhost:3001/users"></a>Users</option>
+        </select>
+    </form>
+
+
+<p> <img class= coverimage src="<%= coverImageUrl %>"></p>
+<p><img class= userimage src="<%= profileImageUrl %>"></p>
+<h1 class= name><%= name %></h1>
+<p class= username><%= username %></p>
+<p class= email><%= email %></p>
+<h2><%= name %>'s post</h2>
 <ul class = user-list><% posts.forEach(post =>{%>
      <li> <img class= postimage src = "<%= post.imageUrl %>" width="200" >
      <p class= username><%= username %></p>
