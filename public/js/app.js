@@ -6,15 +6,14 @@ function changeColor() {
         const red = Math.floor(Math.random()*256);
         const green = Math.floor(Math.random()*256);
         const blue =Math.floor(Math.random()*256);
-
         post.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
-
     }
 }
- function dropDownMenu() {
-     document.getElementById("menuButton").classList.toggle("show");
+function showDropdown(){
+    const dropdown = document.getElementsByClassName("dropdown__option");
+    dropdown.style.display = "block";
+}
      
- }
 
 
 document.addEventListener('DOMContentLoaded', function() {
