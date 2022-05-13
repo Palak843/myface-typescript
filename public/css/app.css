@@ -99,23 +99,32 @@ header{
     width : 100%;
 }
 nav .dropdown{
-    display : inline-block;
+    position: relative;
+    display : inline;
+    text-align: center;
+    height: 20px;
 }
 nav a:hover{
     color : #2985ff;
 }
-.dropdown__option{
+.dropdown__options{
     list-style: none;
     position: absolute;
-    width : fit-content;
-    top : 0;
-    bottom: 50px;
-    left : 150px;
-    right : 0;
+    background-color: pink;
+    top : 20px;
+    left : 100px;
+    right : 100px;
     padding: 0;
     margin: 0;
 }
-.dropdown__label{
+.dropdown__options li {
+    padding: 10px;
+
+    
+}
+
+.dropdown__label:hover {
     display: inline;
+    text-decoration: none;
     text-align: center;
 }
